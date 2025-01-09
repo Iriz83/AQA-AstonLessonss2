@@ -154,51 +154,6 @@ public class MtsPageTest {
         }
     }
 
-
-
-
-           /* stepCheckLogoDisplayed(mtsPage);
-
-            stepCheckConnectionPhonePlaceholders(mtsPage);
-            stepCheckConnectionSumPlaceholders(mtsPage);
-            stepCheckConnectionEmailPlaceholders(mtsPage);
-
-            stepCheckInternetPhonePlaceholders(mtsPage);
-            stepCheckInternetSumPlaceholders(mtsPage);
-            stepCheckInternetEmailPlaceholders(mtsPage);
-
-            stepCheckInstalmentPlaceholders(mtsPage);
-            stepCheckInstalmentSumPlaceholders(mtsPage);
-            stepCheckInstalmentEmailPlaceholders(mtsPage);
-
-            stepCheckArrearsScorePlaceholders(mtsPage);
-            stepCheckArrearsSumPlaceholders(mtsPage);
-            stepCheckArrearsEmailPlaceholders(mtsPage);
-
-            stepFillPaymentDetails(mtsPage);
-            stepCheckIframeLoaded(mtsPage);
-            stepCheckCostDisplayedOnHeader(mtsPage);
-            stepCheckCostDisplayedOnButton(mtsPage);
-            stepCheckCardNumberLabel(mtsPage);
-            stepCheckPhoneNumberShown(mtsPage);
-            stepCheckExpirationDateLabel(mtsPage);
-            stepCheckCvcLabel(mtsPage);
-            stepCheckCardHolderLabel(mtsPage);
-            stepCheckLogoDisplayedInIframe(mtsPage);
-
-
-
-        } catch (Exception e) {
-            Allure.addAttachment("Error Screenshot", "image/png",
-                    Arrays.toString(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-            e.printStackTrace();
-        } finally {
-            driver.quit();
-        }
-    }
-    */
-
-
     //Описание шагов
     @Step("Закрыть окно с куки")
     private static void stepAcceptCookies(MtsPage mtsPage) {
