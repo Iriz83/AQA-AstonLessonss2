@@ -257,6 +257,13 @@ public class MtsPage {
         }
     }
 
+    //private static void stepCheckLogoDisplayed(MtsPage mtsPage) {
+   // }
+
+    //private static void stepAcceptCookies(MtsPage mtsPage) {
+   //     mtsPage.acceptCookies();
+   // }
+
 
 
 
